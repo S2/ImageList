@@ -61,6 +61,7 @@ class ImageList{
             bigUl.appendChild(bigLi)
 
             const smallLi = document.createElement("li")
+            smallLi.style.listStyle = "none"
             const smallImg = document.createElement("img")
             smallImg.src = url
             smallLi.appendChild(smallImg)
